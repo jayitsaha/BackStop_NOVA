@@ -1,0 +1,34 @@
+# secrets — NEVER commit
+.env
+.env.local
+.env.*.local
+client_secret_*.json
+*.apps.googleusercontent.com.json
+
+# python
+.venv/
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# node / web
+web/node_modules/
+web/dist/
+npm-debug.log*
+yarn-error.log*
+
+# data / generated
+*.db
+demo/results.json
+
+# os / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# local demo fixtures (forged screenshots + sample scam emails)
+demo-artifacts/
